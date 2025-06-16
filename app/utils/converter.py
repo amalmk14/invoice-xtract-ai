@@ -82,7 +82,7 @@ def convert_pdf_to_image(pdf_path):
             continue
 
     error_msg = f"All PDF conversion methods failed. Last error: {last_error}"
-    error_msg += "\n\n🔧 Try these solutions:"
+    error_msg += "\n\n Try these solutions:"
     error_msg += "\n1. pip install PyMuPDF"
     error_msg += "\n2. pip install pdf2image"
     error_msg += "\n3. Check if the PDF file is corrupted"
@@ -128,3 +128,5 @@ def get_image_info(image_path):
             }
     except Exception as e:
         return {"error": str(e)}
+    
+
