@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # Ignore Oracle API key
-oci_api_key.pem
+*oci_api_key.pem
 
 # C extensions
 *.so

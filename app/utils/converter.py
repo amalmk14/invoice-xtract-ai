@@ -130,3 +130,4 @@ def get_image_info(image_path):
         return {"error": str(e)}
     
 
+
