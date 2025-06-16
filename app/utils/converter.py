@@ -128,21 +128,3 @@ def get_image_info(image_path):
             }
     except Exception as e:
         return {"error": str(e)}
-
-def test_conversion():
-    """Test PDF conversion capabilities (silent)"""
-    try:
-        import fitz
-    except ImportError:
-        pass
-    try:
-        from pdf2image import convert_from_path
-    except ImportError:
-        pass
-    try:
-        from PIL import Image
-    except ImportError:
-        pass
-
-if __name__ == "__main__":
-    test_conversion()
